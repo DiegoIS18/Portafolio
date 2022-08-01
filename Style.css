@@ -1,50 +1,109 @@
 *
 {
-    background-color: rgb(0, 255, 242);
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-h1
-{
-    background-color:rgb(19, 83, 80);
-    width: 270px;
-    border-radius: 5px;
-}
-#a{
-    background-color: rgb(24, 180, 185);
-    height: 170px;
-    width: 170px;
-    border-radius: 5px;
-}
-#logo
-{
-position: absolute;
-left: 18px;
-top: 90px;
 
-}
-h2
+body
 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(img/17010.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: fixed;
+}
 
-}table {
-    width: 600px;
-    border: 1px solid #1080bd;
-    background: #0315b8;
-}
-th, td {
-    width: 8px;
-    text-align: left;
-    vertical-align: top;
-    border: 1px solid rgb(21, 206, 36);
-    border-spacing: 0;
-    background-color: #0a9667cb;
-}
-textarea
+
+header
 {
-    background-color: #cdd2da;
+    height: 120px;
+    background-color: rgb(18, 114, 114);
+    color: aliceblue;
 }
-label
+
+
+@font-face {
+    font-family: fantasy;
+    src: url(fonts/Catalish\ Huntera.ttf);
+}
+
+@font-face {
+    font-family: fantasy;
+    src: url(fonts/Catalish\ Huntera.ttf);
+}
+
+.a
 {
-    font-family: Arial;
-    color: #000000;
+    float: right;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    font-family: fantasy;
+}
+
+#Inicio
+{
+    float: right;
+    width: 70%;
+    height: auto;
+    backdrop-filter: blur(2px);
+    border-radius: 4px;
+    background-color: rgb(34, 211, 211);
+}
+
+#a
+{
+    height: 10000px;
+}
+
+.html
+{
+    align-self: auto;
+}
+
+.css
+{
+    align-self: auto;
+}
+
+.JS
+{
+    align-self: auto;
+}
+
+.container-2
+{
+    margin-top: auto;
+    margin-left: auto;
+    padding: 0;
+    text-align: center;
+    color: rgb(18, 114, 114);
+    font: 1em sans-serif;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(18, 114, 114);
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: rgb(0, 140, 255);
 }
